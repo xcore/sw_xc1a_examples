@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<xpd>
+    <description>Code examples for the XC-1A development board.</description>
+    <doc>http://www.xmos.com/published/xc1a-examples</doc>
+    <icon>icon/xc1a.png</icon>
+    <location>git@github.com:xcore/sw_xc1a_examples</location>
+    <maintainer>davelxmos</maintainer>
+    <name>sw_xc1a_examples</name>
+    <scope>example</scope>
+    <vendor>XMOS</vendor>
+    <xpd_version>1.0</xpd_version>
+    <template name = "Flashing LED Example">
+        <board>XC-1A</board>
+        <description>Flashing LEDs project.</description>
+        <src file = "src/main.xc">sw_xc1a_examples/app_xc1a_flashing_led</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+    <template name = "LED Example">
+        <board>XC-1A</board>
+        <description>A project that illuminate a LED.</description>
+        <src file = "src/main.xc">sw_xc1a_examples/app_xc1a_led</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+    <template name = "Concurent LED Example">
+        <board>XC-1A</board>
+        <description>A project that illuminates multiple LEDs concurrently.</description>
+        <src file = "src/main.xc">sw_xc1a_examples/app_xc1a_concurrent_led</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+    <template name = "Sequence LED Example">
+        <board>XC-1A</board>
+        <description>A project that illuminates multiple LEDs in sequence.</description>
+        <src file = "src/main.xc">sw_xc1a_examples/app_xc1a_sequence_led</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+    <template name = "Uart Project Example">
+        <board>XC-1A</board>
+        <description>Simple UART example.</description>
+        <src file = "src/main.xc">sw_xc1a_examples/app_xc1a_uart</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+</xpd>
