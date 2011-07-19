@@ -6,7 +6,7 @@
     <location>git@github.com:xcore/sw_xc1a_examples</location>
     <maintainer>davelxmos</maintainer>
     <name>sw_xc1a_examples</name>
-    <release parenthash = "db7235169441834c14a9be302653c4f826fc4810" version = "1.0.0beta0"></release>
+    <release parenthash = "db7235169441834c14a9be302653c4f826fc4810" version = "1.0.0beta0" githash = "986158d53ed923f6fe398d5654b76333e870bef2"></release>
     <scope>example</scope>
     <vendor>XMOS</vendor>
     <xpd_version>1.0</xpd_version>
@@ -24,7 +24,7 @@
         <!-- Empty dependency list since app stands alone -->
         <dependencies></dependencies>
     </template>
-    <template name = "Concurent LED Example">
+    <template name = "Concurrent LED Example">
         <board>XC-1A</board>
         <description>A project that illuminates multiple LEDs concurrently.</description>
         <src file = "src/main.xc">sw_xc1a_examples/app_xc1a_concurrent_led</src>
@@ -40,7 +40,7 @@
     </template>
     <template name = "Uart Project Example">
         <board>XC-1A</board>
-        <description>Simple UART example.</description>
+        <description>Simple Uart example.</description>
         <src file = "src/main.xc">sw_xc1a_examples/app_xc1a_uart</src>
         <!-- Empty dependency list since app stands alone -->
         <dependencies></dependencies>
