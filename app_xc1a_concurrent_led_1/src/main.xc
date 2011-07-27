@@ -35,4 +35,14 @@ int main (void) {
 }
 
 void flashLED (out port led, int period){
+    timer tmr;
+    unsigned isOn = 0;
+    unsigned t;
+    tmr :> t;
+    while (1) {
+        led <: isOn;
+        t += period;
+        tmr when timerafter (t) :> void;
+        isOn = ~isOn;
+    }
 }
