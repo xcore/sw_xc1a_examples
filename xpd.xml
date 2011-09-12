@@ -33,7 +33,7 @@
     <template name = "Concurrent LED Example">
         <board>XC-1A</board>
         <description>A project that illuminates multiple LEDs concurrently.</description>
-        <src file = "src/main.xc">sw_xc1a_examples/app_xc1a_concurrent_led</src>
+        <src file = "src/main.xc">sw_xc1a_examples/app_xc1a_concurrent_led_1</src>
         <!-- Empty dependency list since app stands alone -->
         <dependencies></dependencies>
     </template>
