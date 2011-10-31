@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <xpd>
     <dependency repo = "xcommon">
-        <githash>787a61092487a135f6f49f41d190fa5cc03e2986</githash>
+        <githash>6fc2de1302735843c1a2fb745d17807532970434</githash>
         <uri>ssh://git@github.com/xcore/xcommon</uri>
     </dependency>
     <description>Code examples for the XC-1A development board.</description>
@@ -12,7 +12,8 @@
     <maintainer>davelxmos</maintainer>
     <release parenthash = "db7235169441834c14a9be302653c4f826fc4810" version = "1.0.0beta0" githash = "986158d53ed923f6fe398d5654b76333e870bef2"></release>
     <release parenthash = "dae6d15215a2662713e4b943aa71385d37b6e756" version = "1.0.0beta1" githash = "f78374e20ce10dcbc65e048b48af7d1d2751cfff"></release>
-    <release parenthash = "6c94661595f5039ff327ff5dc3fe794dd71e681b" version = "1.0.0beta2"></release>
+    <release parenthash = "6c94661595f5039ff327ff5dc3fe794dd71e681b" version = "1.0.0beta2" githash = "35cb283629fc4181bc1b828b28cb2454a13e66a1"></release>
+    <release parenthash = "c75fd5b5d3d4a251af8565ce655adacd044647c2" version = "1.0.0rc0"></release>
     <scope>example</scope>
     <vendor>XMOS</vendor>
     <xpd_version>1.0</xpd_version>
