@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 <xpd>
     <dependency repo = "xcommon">
-        <githash>e69a9a283860259dc92a2a9482c3de204ac89abf</githash>
+        <githash>481c97c828da336bc5ef89e3d9f37f7ee758e0e4</githash>
         <uri>ssh://git@github.com/xcore/xcommon</uri>
+        <version>1.0.0rc0</version>
     </dependency>
     <description>Code examples for the XC-1A development board.</description>
-    <doc>http://www.xmos.com/published/xc1a-examples</doc>
     <icon>icon/xc1a.png</icon>
     <location>git@github.com:xcore/sw_xc1a_examples</location>
     <name>sw_xc1a_examples</name>
@@ -14,7 +14,7 @@
     <release parenthash = "dae6d15215a2662713e4b943aa71385d37b6e756" version = "1.0.0beta1" githash = "f78374e20ce10dcbc65e048b48af7d1d2751cfff"></release>
     <release parenthash = "6c94661595f5039ff327ff5dc3fe794dd71e681b" version = "1.0.0beta2" githash = "35cb283629fc4181bc1b828b28cb2454a13e66a1"></release>
     <release parenthash = "c75fd5b5d3d4a251af8565ce655adacd044647c2" version = "1.0.0rc0" githash = "c5dd371c6546206215a5e5b7c8554aab35faffe8"></release>
-    <release parenthash = "c5dd371c6546206215a5e5b7c8554aab35faffe8" version = "1.0.0rc1"></release>
+    <release parenthash = "c5dd371c6546206215a5e5b7c8554aab35faffe8" version = "1.0.0rc1" githash = "0427f7c3599d1de7a88fe3d8d4e04eba69b15824"></release>
     <scope>example</scope>
     <vendor>XMOS</vendor>
     <xpd_version>1.0</xpd_version>
